@@ -1,0 +1,13 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "plugin": {
+    "consumes": [ "db", "booking" ],
+    "provides": []
+  },
+  "scripts": {
+    "test": "(cd ../../; NODE_ENV=local mocha ./interfaces/webapp/test/location.js --app app --no-timeouts)"
+  },
+  "license": "ISC"
+}

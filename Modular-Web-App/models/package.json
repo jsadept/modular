@@ -1,0 +1,21 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "Mongoose models",
+  "plugin":{
+      "packageEnhancer": "mongodb",
+      "consumes": [],
+      "provides": {
+          "db": {
+              "Event": "Event",
+              "Ticket": "Ticket",
+              "User": "User",
+              "Venue": "Venue"
+          }
+      }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
